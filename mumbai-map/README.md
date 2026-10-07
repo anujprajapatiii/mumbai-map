@@ -18,6 +18,6 @@ Connects automatically at startup through the existing no-billing [Google Maps D
 
 The old planning app, custom overlays, drawing tools, storage model, studio/review pages, tests, previous versions, and screenshots were deleted at the user's request. Startup removes the former atlas data and overlay settings without retaining a backup. The Google credential is preserved. There is no alternate map provider or custom map styling.
 
-`npm run check` checks syntax. Local only; nothing published.
+`npm run check` checks syntax. [Live GitHub Pages preview](https://anujprajapatiii.github.io/mumbai-map/). Publishing uses the manually triggered **Publish Mumbai Map** workflow; ordinary pushes do not deploy.
 
 Reference: [Google Maps default controls](https://developers.google.com/maps/documentation/javascript/controls).

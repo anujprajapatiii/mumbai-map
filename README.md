@@ -2,6 +2,8 @@
 
 A simple Google map of Mumbai with a yellow frame and an interactive SVG crow.
 
+[Open Mumbai Map](https://anujprajapatiii.github.io/mumbai-map/)
+
 ## Local preview
 
 ```sh
