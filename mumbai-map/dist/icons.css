@@ -1,0 +1,2 @@
+/* Phosphor Bold: one optical weight, currentColor, decorative within named controls. */
+.icon { width:var(--icon-size,20px); height:var(--icon-size,20px); flex:none; display:inline-block; vertical-align:middle; fill:currentColor; stroke:none; pointer-events:none; }

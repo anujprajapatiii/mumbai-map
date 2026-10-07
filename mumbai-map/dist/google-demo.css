@@ -1,0 +1,22 @@
+.google-demo-setup { width:calc(100% - 36px); max-width:450px; }
+.google-demo-setup .dialog-header h2 { max-width:290px; }
+.google-demo-get-key { display:inline-flex; align-items:center; gap:5px; color:var(--ink); font-size:14px; font-weight:700; text-underline-offset:4px; }
+.google-demo-get-key .icon { --icon-size:17px; }
+.google-demo-setup .field { margin:22px 0 8px; }
+.google-demo-setup input[type=password] { font-size:16px; min-height:44px; }
+.google-demo-privacy { margin:0; color:var(--muted); line-height:1.5; font-size:12px !important; }
+.google-demo-confirm { align-items:flex-start; margin:21px 0; cursor:pointer; }
+.google-demo-confirm input { margin:2px 0 0; }
+.google-demo-status { font-size:13px !important; line-height:1.5; margin:0 0 18px; }
+.google-demo-status.is-error { color:#a6212c; }
+.google-demo-actions { display:flex; gap:12px; margin-top:24px; }
+.google-demo-actions button { min-height:44px; white-space:normal; }
+.google-demo-actions .primary { flex:1; }
+.google-demo-forget { display:block; margin-top:20px; font-size:12px; }
+@media (max-width:420px) {
+  .google-demo-setup { padding:22px; }
+  .google-demo-setup .dialog-header { margin:-22px -22px 21px; padding:21px 18px 20px 22px; }
+  .google-demo-setup .dialog-header h2 { font-size:24px; }
+  .google-demo-actions { flex-direction:column-reverse; gap:13px; }
+  .google-demo-actions button { width:100%; }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "butter-mumbai-atlas",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check dist/app.js && node --check dist/google-demo.js && node --check dist/mascot/crow.js && node --check dist/mascot/crow-svg.js && node --check dist/mascot/pose.js && node --check dist/mascot/animations.js && node --check dist/mascot/effects.js && node --check dist/mascot/eye.js && node --check dist/mascot/eye-pose.js && node --check dist/mascot/eye-performances.js"
+  }
+}
